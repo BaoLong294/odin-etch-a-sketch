@@ -8,5 +8,8 @@ for (let i = 1; i <= numberOfSquare; i++) {
   div.style.borderRight = "1px solid black";
   div.style.borderBottom = "1px solid black";
   div.style.boxSizing = "border-box";
+  div.addEventListener("mouseenter", (event) => {
+    event.target.style.backgroundColor = "black";
+  });
   container.appendChild(div);
 }
