@@ -1,0 +1,7 @@
+#container {
+  aspect-ratio: 1 / 1;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
